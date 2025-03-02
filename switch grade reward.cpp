@@ -22,5 +22,6 @@ cout<<"Fair";
 break;		
 default:
 cout<<"Fail";
+//break;
 }
 }

@@ -1,11 +1,9 @@
-#include <iostream>
-#include <iomanip>
+#include<iostream>
 using namespace std;
-
-int main(){
-    double R,A;
-    cin >> R;
-    A = 3.14159 * R * R;
-    cout << "A=" << fixed << setprecision(4) << A << endl;
-    return 0;
+main()
+{ double c,r;
+	cout<<"To find area of circle put in the vlaue of r : ";
+	cin>>r;
+	c=3.14*r*r;
+cout<<"area of circle is : "<<c<<endl; 
 }

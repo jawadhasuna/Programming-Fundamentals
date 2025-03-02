@@ -15,7 +15,7 @@ main()
                        	else if (b>=a && b>=c)
                         	cout<<"The greatest number is b : "<<b;
                         	else if (c>=a && c>=b)
-                             	cout<<"The greatest number is c : "<<c;s
+                             	cout<<"The greatest number is c : "<<c;
 	
 	
 }

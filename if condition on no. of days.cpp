@@ -9,7 +9,7 @@ main()
 {
 		numberofdays = 31;
 	cout<<numberofdays;}
-	else if (monthnumber==4||monthnumber==6||monthnumber==9||monthnumber==11)
+	else  if (monthnumber==4||monthnumber==6||monthnumber==9||monthnumber==11)
 	{
 	numberofdays = 30;
 	cout<<numberofdays;}
@@ -17,7 +17,7 @@ main()
 	{
 	numberofdays = 28;
 	cout<<numberofdays<<"/29(depending on leap year)";}
-	else  
+	else if(monthnumber>12) 
 	{
 	cout<<"invalid month!!";}
 	
